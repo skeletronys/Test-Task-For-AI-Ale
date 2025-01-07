@@ -25,6 +25,7 @@ This is a FastAPI project for analyzing GitHub repositories and providing automa
     "github_repo_url": "https://github.com/example/repo",
     "candidate_level": "Junior"
 }
+```
 
 ## Use Postman
 
