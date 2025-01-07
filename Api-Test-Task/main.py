@@ -75,7 +75,7 @@ async def review_code(request: ReviewRequest):
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"OpenAI API error: {str(e)}")
 
-    downsides = [line for line in review_text.split("\n") if line.strip()][:5]  # Візьміть перші 5 рядків
+    downsides = [line for line in review_text.split("\n") if line.strip()][:5]
     if "improvement" in review_text.lower():
         conclusion = "The candidate has potential but needs improvement in specific areas."
     else:
