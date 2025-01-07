@@ -29,4 +29,4 @@ This is a FastAPI project for analyzing GitHub repositories and providing automa
 
 ## Use Postman
 
-![Use Postman](./Api-Test-Task/image.png)
+![Use Postman](image.png)
